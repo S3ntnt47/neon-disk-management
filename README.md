@@ -1,3 +1,5 @@
+<p align="center"><img src="art/icon.png" width="128" alt=""></p>
+
 # Neon Disk Management
 
 A simple neon partition manager for Windows, in the same style as Undelete.
@@ -46,7 +48,7 @@ placed at `tools\sdk-buildtools\pkg\bin\<version>\x64\`. They aren't included in
 .\packaging\package-store.ps1 -Version 1.0.0.0   # Store build (unsigned; Microsoft signs it)
 ```
 
-`tools\make-assets.ps1` regenerates the icon and tile images. `packaging\STORE-LISTING.md` has the Partner Center submission text.
+`tools\make-assets.ps1` regenerates the icon and tile images from the neon SVGs in `art` (rendered with headless Edge). `packaging\STORE-LISTING.md` has the Partner Center submission text.
 
 ## Safety
 
