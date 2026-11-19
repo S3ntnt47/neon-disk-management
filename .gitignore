@@ -1,0 +1,13 @@
+# build output
+Disks.exe
+disks-list.txt
+packaging/out/
+
+# signing material - never commit
+*.pfx
+*.cer
+*.snk
+
+# Microsoft Windows SDK build tools (makeappx/makepri/signtool): not ours to redistribute.
+# See "Packaging" in README.md for how to get them.
+tools/sdk-buildtools/
