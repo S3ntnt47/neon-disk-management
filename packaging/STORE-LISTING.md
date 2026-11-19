@@ -121,11 +121,14 @@ disk
 
 ## 6. Screenshots
 
-You need at least one PNG, 1366×768 or larger. Recommended set:
-1. The main window with a partition selected: `screenshots\01-main.png` (1500×900), already included. It shows your own disk models, so retake it if you'd rather not publish those.
-2. The shrink / extend dialog with the slider moved.
-3. The new partition dialog.
-4. A disk with unallocated space selected and "new partition" highlighted.
+You need at least one PNG, 1366×768 or larger. The ready-made set is in `screenshots\store\` (1484×892, drawn from sample disks, so no real drive data):
+1. `store-1-main.png`: the main window with a partition selected (upload this one first)
+2. `store-2-unallocated.png`: unallocated space selected, "new partition" available
+3. `store-3-shrink.png`: the shrink / extend dialog
+4. `store-4-create.png`: the new partition dialog
+5. `store-5-delete.png`: the delete confirmation
+
+`screenshots\01-main.png` is an older capture that shows real disk model names; don't use it for the Store.
 
 The app tile icon (`packaging\Assets\Square150x150Logo.scale-200.png`, 300×300) is taken from the package automatically.
 

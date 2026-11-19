@@ -9,6 +9,14 @@ A simple neon partition manager for Windows, in the same style as Undelete.
 - **Delete partition…**: you have to type `delete X` to confirm. Windows' own partition and the active EFI/system partition can't be deleted.
 - **Initialize disk (GPT)**: for blank disks.
 
+![Main window](packaging/screenshots/store/store-1-main.png)
+
+| | |
+|---|---|
+| ![Shrink / extend](packaging/screenshots/store/store-3-shrink.png) | ![New partition](packaging/screenshots/store/store-4-create.png) |
+
+*Screenshots use sample disks.*
+
 Operations go through the Windows Storage Management API (the same one Disk Management and `Resize-Partition` use), so Windows enforces its usual rules:
 - Only NTFS and ReFS can be shrunk or extended.
 - A partition can only extend into unallocated space directly after it.
